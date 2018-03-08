@@ -15,26 +15,25 @@ public class SifrovacSocket {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         // TODO code application logic here
     }
-    /*     
+         
         public void cipherstring {
-    
-    System.out.println("jdeme na stavu .cz");
+
     
 }
         
-        public void cipherfile{
+        public void cipherfile {
  
 }
         
-        public void decipherfile{
+        public void decipherfile {
        
 } 
 
-        public void decipherstring{
+        public void decipherstring {
    
 }
         
-*/
 }

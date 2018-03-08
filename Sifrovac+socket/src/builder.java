@@ -8,32 +8,35 @@
  *
  * @author Student
  */
-public abstract class builder {
+public abstract class builder extends SifrovacSocket {
     //    int x, y;
      protected String retezec;   
+     protected int sifra;
 
      
-     public builder(String retezec) {
+     public builder(String retezec/*, int sifra*/) {
 
         this.retezec = retezec;
-
+        //this.sifra = sifra;
     }
-    
-    public void sifruj() {
-        System.out.println("sifruj " + retezec );
      
-    }
-    public String getRetezec() {
-
-        return retezec;
-
-    }
+   // public  void cipherstring {}
+     
+    public abstract void sifruj();
     
-    public void desifruj() {
-        System.out.println("desifruj " + retezec );
+    public abstract void desifruj();
+  /*  
+    public abstract void sifruj(String) {
+        System.out.println("sifruji" + retezec);
      
     }
     
+    
+    public abstract void desifruj(String) {
+        System.out.println("desifruji" + retezec);
+     
+    }
+    */
     /*
     void moveTo(int newX, int newY) {
         
